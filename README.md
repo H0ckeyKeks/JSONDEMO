@@ -24,18 +24,17 @@ JSONDEMO is a .NET project designed to demonstrate the usage of JSON handling wi
     Debug Mode: Ctrl + Shift + B
     Release Mode: Change build configuration to "Release" and then build.
 
-** ▶️ Running the Project**
+**▶️ Running the Project**
 - Set JSONDEMO as the startup project.
 - Run the application using F5 (Debug) or Ctrl + F5 (Without Debugging).
 
 # 📂 Project Structure
-JSONDEMO/
-│── JSONDEMO.sln           # Solution file
-│── JSONDEMO.csproj        # Project file
-│── Program.cs             # Main entry point
-│── Models/                # Data models
-│── Services/              # JSON-related services
-│── README.md              # Project documentation
+- JSONDEMO.sln – The Visual Studio solution file that groups all projects.
+- JSONDEMO.csproj – The project file containing build and dependency settings.
+- Program.cs – The main entry point of the application.
+- Models/ – Contains C# classes representing JSON data structures.
+- Services/ – Includes logic for JSON handling (parsing, serialization, etc.).
+- README.md – Documentation for the project.
 
 # ✨ Features
 ✅ Read JSON data from files or APIs.
